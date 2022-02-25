@@ -1,5 +1,5 @@
 // your code 
-// import the coins array
+// require the coins array
 
 function coinCollector(coins) {
   const onlyCoins = [];
