@@ -16,9 +16,8 @@ function coinCollector(coins) {
     if (desired.includes(coin)) {
       onlyCoins.push(coins[i]);
     }
-    return onlyCoins;
   }
-
+  return onlyCoins;
 }
 
 coinCollector(coins);
