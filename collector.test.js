@@ -1,4 +1,5 @@
 const coinCollector = require('./collector');
+const coins = require('./coins');
 
 describe('coinCollector', () => {
   it('is a function', () => {
@@ -15,5 +16,14 @@ describe('coinCollector', () => {
 
   it('filters multiple items', () => {
     expect(coinCollector(['dime', 'hundred', 'nickel', 'penny', 'dollar'])).toEqual(['dime', 'nickel', 'penny']);
+  });
+  
+  it('filters original array', () => {
+    expect(coinCollector(coins)).toEqual([
+      'quarter',
+      'dime',
+      'nickel',
+      'penny'
+    ]);
   });
 });

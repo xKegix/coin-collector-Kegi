@@ -21,5 +21,7 @@ function coinCollector(coins) {
 
 }
 
+coinCollector(coins);
+
 // your code
 // export the coinCollector function
