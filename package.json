@@ -1,0 +1,23 @@
+{
+  "name": "coin-collector-kegi",
+  "version": "1.0.0",
+  "description": "![logo](https://user-images.githubusercontent.com/44912347/202273653-1c259f67-7b01-46fc-8e4d-ccb804649e27.jpg)",
+  "main": "coins.js",
+  "scripts": {
+    "test": "jest --watch-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xKegix/coin-collector-Kegi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xKegix/coin-collector-Kegi/issues"
+  },
+  "homepage": "https://github.com/xKegix/coin-collector-Kegi#readme",
+  "dependencies": {
+    "jest": "^29.4.2"
+  }
+}
